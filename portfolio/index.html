@@ -47,7 +47,7 @@ vertical-align: middle;
     }
     .img-container
     {
-        /* filter: drop-shadow(8px 10px 8px grey); */
+    
         margin: 0%;
         vertical-align: middle;
         padding-top:5rem;
@@ -118,14 +118,75 @@ p
 footer
 {
     background-color: blue;
-    background-blend-mode:saturation;
-    
+    /* background-blend-mode:saturation; */ 
 }
 i
 {
     font-size: 50px;
     color: white;
     margin-left: 40%;
+}
+@media screen and (max-width: 600px) {
+    .img-container
+    {
+        margin: 0%;
+        vertical-align: middle;
+        padding-top:5rem;
+    }
+    aside
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 2.5rem;
+        /* margin-top: -20%; */
+        margin-left: 5%;
+    }
+    p
+{
+    font-size: 1rem;
+    color: white;
+}
+    .typing
+{
+    display: inline-block;
+    animation:typing 10s (20,end),ease-in-out;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    margin-left: 24%;
+    overflow: hidden;
+}
+#mnu
+    {
+        justify-content: space-between;  
+        font-size: 1.5rem;
+        display:inline-block;
+        margin: 0px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
+    }
+    
+    #hea
+    {
+        font-size: 2rem;
+        color: white;
+    }
+    .certification
+{
+    font-size: 1rem;
+    color: white;
+}
+.certification>h2
+{
+    font-size: 2rem;
+    color: white;
+}
+.exp>p
+{
+    margin-left: 5%;
+}
 }
 </style>
 <body> 
